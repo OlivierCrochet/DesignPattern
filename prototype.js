@@ -1,9 +1,12 @@
+// DesignPattern - Prototype
+// -------------------------
+
 var carPrototype = { // On crée une variable carPrototype avec les attributs suivants
   init : function(carModel){ // Initialisation de la fonction ayant pour argument 'carModel'
     this.model = carModel // Sur cette ligne, le modèle de la voiture correspond a l'argument 'carModel'
   },
   getModel : function(){
-    console.log("Le modèle de la voiture est" + " : " + this.model) // Renvoi, par une phrase dans la console le modèle de la voiture
+    console.log("Le modèle de la voiture est" + " : " + this.model) // Renvoi, par une phrase dans la console, le modèle de la voiture
   }
 }
 
